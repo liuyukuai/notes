@@ -1,3 +1,10 @@
 # 删除目录下的文件
 find /opt/module/datax/plugin/reader/ -type f -name "._*er" | xargs rm -rf
 
+
+# DataX引擎配置错误，该问题通常是由于DataX安装错误引起，请联系您的运维解决
+
+
+core -> transport -> channel -> speed -> "byte": 2000000，
+
+
