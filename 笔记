@@ -8,3 +8,7 @@ find /opt/module/datax/plugin/reader/ -type f -name "._*er" | xargs rm -rf
 core -> transport -> channel -> speed -> "byte": 2000000，
 
 
+set global character_set_server=utf8mb4;
+set global character_set_database=utf8mb4;
+set global character_set_client=utf8mb4;
+set global character_set_connection=utf8mb4;
