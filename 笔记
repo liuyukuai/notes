@@ -15,3 +15,7 @@ set global character_set_server=utf8mb4;
 set global character_set_database=utf8mb4;
 set global character_set_client=utf8mb4;
 set global character_set_connection=utf8mb4;
+
+
+# mysql超大数据处理方法
+https://dev.mysql.com/doc/refman/8.0/en/delete.html
